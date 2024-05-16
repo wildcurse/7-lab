@@ -8,7 +8,7 @@ public class Car
     public string Color { get; }
     public bool IsStarted { get; private set; }
     public int Speed { get; private set; }
-    public int Gear { get; private set; }  // 0 for neutral, 1-5 for forward gears, -1 for reverse
+    public int Gear { get; private set; } 
 
     public Car(string make, string model, string licensePlate, string color)
     {
